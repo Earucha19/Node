@@ -5,7 +5,7 @@ app.get("/", function (req, res) {
 	  res.send("IT WORKED");
 });
 app.get("/new", function (req, res) {
-	  res.send("New also worked");
+	  res.send("New also worked 2");
 });
 
 app.listen(process.env.PORT || 5000);
